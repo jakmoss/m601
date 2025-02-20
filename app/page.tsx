@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
@@ -17,40 +16,25 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
-        {/* Call to Action Buttons */}
+        {/* Call to Action Links */}
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Button
-            asChild
-            className="rounded-full bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] h-10 sm:h-12"
+          <a
+            className="rounded-full flex items-center justify-center bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] h-10 sm:h-12 px-4 sm:px-5 transition-colors"
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                className="dark:invert mr-2 inline-block"
-                src="/vercel.svg"
-                alt="Vercel logomark"
-                width={20}
-                height={20}
-              />
-              Deploy now
-            </a>
-          </Button>
-          <Button
-            asChild
-            variant="outline"
-            className="rounded-full h-10 sm:h-12 hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] sm:min-w-44"
+            <Image className="dark:invert mr-2" src="/vercel.svg" alt="Vercel logomark" width={20} height={20} />
+            Deploy now
+          </a>
+          <a
+            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 transition-colors"
+            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a
-              href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Read our docs
-            </a>
-          </Button>
+            Read our docs
+          </a>
         </div>
 
         {/* Video Section */}
@@ -58,7 +42,7 @@ export default function Home() {
           <div className="relative aspect-video rounded-lg overflow-hidden">
             <iframe
               className="absolute inset-0 w-full h-full"
-              src="https://www.youtube.com/embed/BqOY4IRMK-A"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
               title="Introduction to Next.js"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
