@@ -58,7 +58,7 @@ export default function Home() {
           <div className="relative aspect-video rounded-lg overflow-hidden">
             <iframe
               className="absolute inset-0 w-full h-full"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src="https://www.youtube.com/embed/BqOY4IRMK-A"
               title="Introduction to Next.js"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
