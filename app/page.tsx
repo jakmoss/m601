@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
+    <div className="grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-white text-black">
       <main className="flex flex-col gap-12 row-start-2 text-center">
         {/* Hero Section */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight p-8 rounded-2xl bg-sky-50">
