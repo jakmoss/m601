@@ -5,7 +5,7 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-12 row-start-2 items-center sm:items-start">
         {/* Hero Section */}
-        <h1>Goodbye ไว้เจอกันใหม่</h1>
+        <h1 className="text-center">Goodbye ไว้เจอกันใหม่</h1>
 
         {/* Instructions */}
        
