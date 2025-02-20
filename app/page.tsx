@@ -3,13 +3,18 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-white text-black">
       <main className="flex flex-col gap-12 row-start-2 text-center">
         {/* Hero Section */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight p-8 rounded-2xl bg-sky-50">
-          Goodbye{" "}
-          <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">ไว้เจอกันใหม่</span>
+        <h1
+          className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight p-8 rounded-2xl text-black"
+          style={{ backgroundColor: "rgba(3, 108, 95, 0.1)" }}
+        >
+          Goodbye <span className="text-black">ไว้เจอกันใหม่</span>
         </h1>
 
         {/* Video Section */}
-        <section className="w-full max-w-4xl mx-auto grid gap-8 sm:grid-cols-2 p-8 rounded-2xl bg-blue-50">
+        <section
+          className="w-full max-w-4xl mx-auto grid gap-8 sm:grid-cols-2 p-8 rounded-2xl"
+          style={{ backgroundColor: "rgba(3, 108, 95, 0.15)" }}
+        >
           <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
             <iframe
               className="absolute inset-0 w-full h-full"
