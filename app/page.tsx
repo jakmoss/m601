@@ -40,7 +40,7 @@ export default function Home() {
           className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight p-8 rounded-2xl text-black backdrop-blur-sm"
           style={{ backgroundColor: "rgba(3, 108, 95, 0.1)" }}
         >
-          Goodbye <span className="text-black">ไว้เจอกันใหม่</span>
+          GOODBYE M.6/1 <span className="text-black">ไว้เจอกันใหม่</span>
         </h1>
 
         {/* Video Section */}
@@ -73,9 +73,9 @@ export default function Home() {
           className="w-full p-8 rounded-2xl backdrop-blur-sm text-2xl sm:text-3xl font-medium"
           style={{ backgroundColor: "rgba(3, 108, 95, 0.1)" }}
         >
-          Thank you for all the memories and friendship.
+          หวังว่าทุกคนจะได้ตามที่หวังกันทุกคนและขอให้เราเป็นเพื่อนกันไปอีกนานนะ
           <br className="hidden sm:block" />
-          Until we meet again! 🌟
+          โชคดีนะทุกคนรักนะ 🌟
         </div>
       </main>
     </div>
