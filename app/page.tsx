@@ -21,7 +21,7 @@ export default function Home() {
           className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight p-8 rounded-2xl text-black backdrop-blur-sm"
           style={{ backgroundColor: "rgba(3, 108, 95, 0.1)" }}
         >
-          GOODBYE <span className="text-black">ไว้เจอกันใหม่</span>
+          GOODBYE M.6/1 <span className="text-black">ไว้เจอกันใหม่</span>
         </h1>
 
         {/* Video Section */}
